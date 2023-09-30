@@ -8,7 +8,15 @@ package S05_32;
 /**
  *
  * @author USUARIO
- */
+import java.util.Scanner;
 public class mainauto {
-    
+     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la marca del auto: ");
+        String marca = scanner.nextLine();
+
+        System.out.print("Ingrese el modelo del auto: ");
+        String modelo = scanner.nextLine();
+}
 }
